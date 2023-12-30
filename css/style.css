@@ -1,0 +1,25 @@
+.container{
+    max-width: 1200px !important;
+    margin: auto;
+    /* border: 1px solid #fff; */
+}
+header{
+    background-color: #262A2B;
+}
+header .fa-solid{
+    color: #856F49;
+}
+header .fa-brands{
+    color: #ccc;
+    padding: 16px;
+}
+header .fa-brands:hover{
+    background-color: #D61E25;
+    padding: 16px;
+}
+nav .logo{
+    width: 120px;
+}
+nav li:hover{
+    color: #856F49;
+}
