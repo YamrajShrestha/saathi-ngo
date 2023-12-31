@@ -3,10 +3,10 @@
     margin: auto;
     /* border: 1px solid #fff; */
 }
-header{
+header, footer{
     background-color: #262A2B;
 }
-header .fa-solid{
+header, footer .fa-solid{
     color: #856F49;
 }
 header .fa-brands{
@@ -17,9 +17,17 @@ header .fa-brands:hover{
     background-color: #D61E25;
     padding: 16px;
 }
-nav .logo{
+nav .logo, footer .logo{
     width: 120px;
 }
 nav li:hover{
     color: #856F49;
+}
+.activities img{
+    height: 268.4px;
+    width: 604.667px;
+    object-fit: cover;
+}
+footer .bottom{
+    background-color: #856F49;
 }
