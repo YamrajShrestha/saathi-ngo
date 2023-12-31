@@ -13,9 +13,9 @@
   </head>
   <body>
     <header class="text-sm">
-      <div class="container flex justify-between items-center">
+      <div class="container lg:flex justify-between items-center">
         <div class="text-lime-50">
-          <ul class="flex gap-10">
+          <ul class="flex gap-10 justify-center">
             <li><i class="fa-solid fa-phone-flip me-2"></i>+977-1-5191103</li>
             <li>
               <a href="#"
@@ -26,7 +26,7 @@
           </ul>
         </div>
         <div>
-          <ul class="flex">
+          <ul class="flex justify-center">
             <li>
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             </li>
@@ -43,12 +43,13 @@
         </div>
       </div>
     </header>
-    <div class="container my-2">
-      <nav class="flex justify-between items-center uppercase font-bold">
+
+    <div class="container my-2 menu">
+      <nav class="flex justify-between items-center uppercase font-bold px-3 lg:px-0">
         <div class="logo">
           <img src="img/cropped-saathi-logo1.jpg" alt="" />
         </div>
-        <ul class="flex gap-10">
+        <ul class="lg:flex hidden gap-10">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">PROGRAMS</a></li>
@@ -58,15 +59,18 @@
           <li><a href="#">Contact</a></li>
           <li><a href="#">Activities</a></li>
         </ul>
+        <div class="lg:hidden"><i class="fa-solid fa-bars"></i></div>
       </nav>
     </div>
-    <section class="hero-bannner mb-10">
+
+    <section class="hero-bannner">
       <img src="img/1.jpg" alt="" class="w-full" />
     </section>
-    <section class="py-10">
+
+    <section class="py-5 about-us">
       <div class="container lg:flex justify-between">
         <div class="me-5">
-          <h4 class="text-amber-300 font-bold text-4xl mb-2">About Us</h4>
+          <h4 class="font-bold text-3xl mb-2">About Us</h4>
           <p>
             Saathi is a non-governmental organization established in 1992 to
             address the different forms of violence and discrimination faced by
@@ -80,7 +84,7 @@
           </p>
           <a
             href=""
-            class="btn bg-red-600 text-lime-50 px-10 py-5 inline-block mt-8"
+            class="btn bg-red-600 text-lime-50 px-8 py-5 inline-block my-8"
             >Read More</a
           >
         </div>
@@ -97,13 +101,14 @@
         </div>
       </div>
     </section>
-    <section class="py-10 activities">
+
+    <section class="py-5 activities">
       <div class="container">
         <h4 class="font-bold text-3xl py-5">Activities</h4>
-        <div class="flex gap-3">
+        <div class="lg:flex gap-3">
           <div class="border shadow">
             <img src="img/S_-6-600x311.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Empowering Educators: Saathi’s Initiative on Child Rights and
                 Child Protection.
@@ -119,7 +124,7 @@
           </div>
           <div class="border shadow">
             <img src="img/activities-img2.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Empowering Child Protection: Saathi’s Training Initiative
               </h4>
@@ -134,7 +139,7 @@
           </div>
           <div class="border shadow">
             <img src="img/activities-img3.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Saathi’s Health Camp: Caring for 200+
               </h4>
@@ -148,10 +153,10 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-3 mt-10">
+        <div class="lg:flex gap-3 mt-10">
           <div class="border shadow">
             <img src="img/activities-img-4.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Empowering Saathi Youths: Capacity Building Training
               </h4>
@@ -166,7 +171,7 @@
           </div>
           <div class="border shadow">
             <img src="img/activities-img5.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Christmas & Birthday Celebration
               </h4>
@@ -181,7 +186,7 @@
           </div>
           <div class="border shadow">
             <img src="img/activities-img6.jpg" alt="" class="w-full" />
-            <div class="p-5">
+            <div class="p-10">
               <h4 class="text-2xl mb-2 mt-10">
                 Strengthening Collaborative Partnerships with Local government
               </h4>
@@ -197,17 +202,19 @@
         </div>
       </div>
     </section>
+
     <footer>
-      <div class="container flex justify-between items-center py-8">
+      <div class="container flex justify-between items-center py-8 px-8 lg:px-0">
         <div class="logo">
           <img src="img/cropped-saathi-logo1.jpg" alt="" />
         </div>
         <div class="text-lime-50">
-          <ul class="flex gap-10">
+          <ul class="lg:flex gap-10">
             <li><i class="fa-solid fa-phone-flip me-2"></i>+977-1-5191103</li>
             <li>
               <a href="#"
-                ><i class="fa-solid fa-envelope me-2"></i>saathi.ktm@gmail.com</a
+                ><i class="fa-solid fa-envelope me-2"></i
+                >saathi.ktm@gmail.com</a
               >
             </li>
             <li>
@@ -221,7 +228,7 @@
       </div>
       <section class="bottom">
         <div class="container">
-          <p class="text-sm py-5">© 2022 Saathi. All rights reserved.</p>
+          <p class="text-sm py-5 text-lime-50 text-center lg:text-start">© 2022 Saathi. All rights reserved.</p>
         </div>
       </section>
     </footer>

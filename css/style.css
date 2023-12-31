@@ -6,7 +6,10 @@
 header, footer{
     background-color: #262A2B;
 }
-header, footer .fa-solid{
+header .fa-solid{
+    color: #856F49;
+}
+footer .fa-solid{
     color: #856F49;
 }
 header .fa-brands{
@@ -30,4 +33,15 @@ nav li:hover{
 }
 footer .bottom{
     background-color: #856F49;
+}
+.menu .fa-bars{
+    background-color: #856F49;
+    color: #ccc;
+    padding: 8px;
+}
+.menu .fa-bars:hover{
+    background-color: red;
+}
+.about-us h4{
+    color: #856F49;
 }
